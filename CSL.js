@@ -27,9 +27,7 @@ function draw() {
     }
   }
 
-  // translate(300, 300); // Move origin to the center of the canvas
-  // rotate(angle); // Rotate around the current origin (center of the canvas)
-  // translate(-190, -190); // Move back to the top-left corner of the grid
+
 
   let curr_cnt = 0;
   for (let i = 0; i < cols; i++) {
@@ -48,11 +46,9 @@ function draw() {
           abs(temp_y - round(temp_y)) <= eps) {
         fill(255, 255, 255);
         curr_cnt++;
-        // console.log()
       }
       
-      // ellipse(i * spacing + 100 + spacing / 2, j * spacing + height / 6 + spacing / 2, 10, 10);
-      // ellipse(i * spacing, j * spacing, 10, 10);
+     
       ellipse(rot_x, rot_y, radius, radius);
       
     }
@@ -61,6 +57,5 @@ function draw() {
   if (curr_cnt > 10) {
     console.log(angle, curr_cnt);
   }
-  // angle += speed;
   angle = (angle+speed)%90
 }
