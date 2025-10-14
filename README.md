@@ -15,7 +15,7 @@ $$\Sigma = \frac{\text{Volume of elementary cell of CSL}}{\text{Volume of elemen
   <img src="https://github.com/user-attachments/assets/e8de641c-df1d-484c-ace0-0cdfe2962ee4" width="45%" />
 </p>
 
-In this case the value of $\Sigma$ can be calculated as: 
+In this case the value of $\Sigma$ can be calculated as demonstrated below and can be plotted with various orientation angle: 
 
 $$\Sigma = \frac{\sqrt{5}a \times \sqrt{5}a}{a\times a} = 5 $$
 
